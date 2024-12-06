@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.borde {
+    border: 1px solid pink;
+}
+
+.titulo {
+    width: 100%;
+    height: 50px;
+    padding: 52px;
+    background-color: rgba(0, 0, 0);
+    font-family: 'Dancing Script', cursive;
+    color: peachpuff;
+    text-align: center;
+    font-size: 25px;
+}
+
+.contenedor {
+    width: 99%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+body {
+    background-image: url('../img/fondo-pagina.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: 'Chelsea Market', cursive;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: palevioletred;
+    position: fixed;
+    max-width: 1280px;
+}
+
+.logo {
+    width: 20%;
+    height: 100%;
+    float: left;
+    padding: 5px;
+    text-align: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.navegacion {
+    width: 65%;
+    height: 100%;
+    float: left;
+}
+
+.ingreso {
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    width: 130px;
+    background-color: peachpuff;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+nav .navegacion>ul>li {
+    display: inline-block;
+}
+
+nav .ingreso ul li {
+    width: 100%;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: palevioletred;
+    padding: 15px 2px;
+    text-align: center;
+    border-bottom: 2px solid pink;
+}
+
+nav ul li a:hover {
+    background: rgba (223, 147, 200, 0.5);
+    border-bottom: 2px solid rgb(240, 171, 236);
+}
+
+nav li ul {
+    position: absolute;
+    display: none;
+}
+
+nav .ingreso li ul {
+    width: 14%;
+}
+
+nav li ul li {
+    position: relative;
+}
+
+nav li ul li ul {
+    left: 130px;
+    top: 2px;
+}
+
+header {
+    width: 100%;
+    height: 550px;
+    background-image: url('../img/fondo-header.jpg');
+    background-size: 100% 100%;
+}
+
+main#portafolio {
+    width: 100%;
+    height: 550px;
+    background: rgba(236, 59, 227, 0.9);
+}
+
+.div-porta {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding: 50px;
+    font-size: 13px;
+}
+
+.div-porta img {
+    width: 150px;
+    height: 150px;
+    margin: 40px 0px 0px 0px;
+    border-radius: 50%;
+}
+
+.div-porta p {
+    margin: 40px 0px 0px 0px;
+    text-align: justify;
+}
+
+section#quienes-somos {
+    width: 100%;
+    height: 550px;
+}
+
+.fila {
+    width: 100%;
+    height: 33.33%;
+}
+
+.col-ext {
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.col-cen {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+section#contactenos {
+    width: 100%;
+    height: 550px;
+}
+
+.div-contacto {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.div-arr iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.div-arr {
+    width: 100%;
+    height: 70%;
+}
+
+.div-aba {
+    width: 100%;
+    height: 30%;
+    padding: 2px;
+    background: rgb(240, 171, 236);
+    text-align: center;
+}
+.direccion{
+    margin-top: 10px;
+}
+.facebook{
+    width: 40px;
+    height:40px;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: pink;
+}
